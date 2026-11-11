@@ -1,0 +1,813 @@
+2026-10-20 21:27:03,640 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=25524
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1792502823.981532 46132 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-10-20 21:27:04,645 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-10-20 21:27:04,657 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-10-20 21:27:04,665 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=1eed57bf-e1d0-4481-be04-02c9c46fe352 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1792502824.664038 22848 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1792502824.664038 22848 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1792502824.664038 22848 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-10-20 21:27:04,889 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-10-20 21:27:06,395 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:28:34,550 INFO suiyue.pepper.gateway: listen stop
+2026-10-20 21:28:34,886 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:28:43,732 INFO suiyue.pepper.gateway: [STT] 看一明我这个啊，明儿不拿着呢，明明明还不上这有课嗯，因为明天给他们安排就是讲一些基础的东西。然后第二第第二天是那个小智的电脑服务器部署呃，客户端部署。然后下午是讲一些asRTTS的然知识不配置。然后第三天的时候才是组装机器人，我意思明天老师的意思明天去了，先看有没有放地方，别就让偷了，还是让咋的没有那个安置地方让他们给乱动。然后反正明天右上这课就是先我先拿那个机器人给他们讲课，先先让他们看一下效果
+2026-10-20 21:28:46,220 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-10-20 21:28:47,984 INFO suiyue.pepper.gateway: [TTS] 您说的是明天上课的安排吧？
+[audio] Microphone unsubscribed
+2026-10-20 21:28:50,989 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-10-20 21:35:10,885 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=38312
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1792503311.283663 49204 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-10-20 21:35:11,900 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-10-20 21:35:11,917 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-10-20 21:35:11,930 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=a487575f-ed6a-4cb2-b4a2-356515589c6b audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1792503311.932048 38468 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1792503311.933429 38468 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1792503311.933429 38468 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-10-20 21:35:12,132 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-10-20 21:35:12,206 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:35:59,024 INFO suiyue.pepper.gateway: [STT] 你好，请介绍一下你自己
+2026-10-20 21:36:02,689 INFO suiyue.pepper.gateway: [TTS] 您好
+2026-10-20 21:36:04,851 INFO suiyue.pepper.gateway: [TTS] 我是岁悦
+2026-10-20 21:36:06,785 INFO suiyue.pepper.gateway: [TTS] 陪您聊天，提醒身体小事
+2026-10-20 21:36:10,152 INFO suiyue.pepper.gateway: [TTS] 您想聊点什么呢？
+2026-10-20 21:36:21,843 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 443518, 'output_rate': 48000, 'duration_s': 9.24, 'played': True}
+2026-10-20 21:36:21,925 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:36:23,937 INFO suiyue.pepper.gateway: [STT] 你你要说话
+2026-10-20 21:36:24,805 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-10-20 21:36:28,161 INFO suiyue.pepper.gateway: [TTS] 好
+2026-10-20 21:36:30,444 INFO suiyue.pepper.gateway: [TTS] 我说
+2026-10-20 21:36:33,638 INFO suiyue.pepper.gateway: [TTS] 您想聊什么呀？
+2026-10-20 21:36:41,736 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 276478, 'output_rate': 48000, 'duration_s': 5.76, 'played': True}
+2026-10-20 21:36:41,807 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:36:47,619 INFO suiyue.pepper.gateway: [STT] 今天天气怎么样？
+2026-10-20 21:36:48,515 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-10-20 21:36:50,534 INFO suiyue.pepper.gateway: [TTS] 我这儿看不到外面的天
+2026-10-20 21:36:54,009 INFO suiyue.pepper.gateway: [TTS] 您往窗外瞅瞅？
+2026-10-20 21:36:56,282 INFO suiyue.pepper.gateway: [TTS] 是晴是阴呀？
+2026-10-20 21:37:05,461 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 322558, 'output_rate': 48000, 'duration_s': 6.72, 'played': True}
+2026-10-20 21:37:05,531 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:37:07,316 INFO suiyue.pepper.gateway: [STT] 电死我的货
+2026-10-20 21:37:08,130 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-10-20 21:37:14,794 INFO suiyue.pepper.gateway: [TTS] 这句我没太听懂
+2026-10-20 21:37:17,281 INFO suiyue.pepper.gateway: [TTS] 您再说一遍好吗？
+2026-10-20 21:37:23,971 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 204478, 'output_rate': 48000, 'duration_s': 4.26, 'played': True}
+2026-10-20 21:37:24,049 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:37:25,134 INFO suiyue.pepper.gateway: [STT] 好吗？
+2026-10-20 21:37:25,946 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-10-20 21:37:28,203 INFO suiyue.pepper.gateway: [TTS] 好呀
+2026-10-20 21:37:30,244 INFO suiyue.pepper.gateway: [TTS] 您想说点啥，我听着呢
+2026-10-20 21:37:38,450 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 233278, 'output_rate': 48000, 'duration_s': 4.86, 'played': True}
+2026-10-20 21:37:38,470 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:37:42,396 INFO suiyue.pepper.gateway: [STT] 介绍一下你自己
+2026-10-20 21:37:43,033 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-10-20 21:37:45,447 INFO suiyue.pepper.gateway: [TTS] 我是岁悦
+2026-10-20 21:37:49,337 INFO suiyue.pepper.gateway: [TTS] 陪您说话的小机器人
+2026-10-20 21:37:51,981 INFO suiyue.pepper.gateway: [TTS] 能聊天、提个醒
+2026-10-20 21:37:54,448 INFO suiyue.pepper.gateway: [TTS] 您想聊聊不？
+2026-10-20 21:38:05,723 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 429118, 'output_rate': 48000, 'duration_s': 8.94, 'played': True}
+2026-10-20 21:38:05,778 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:38:13,449 INFO suiyue.pepper.gateway: [STT] 还有TPS这扯呀
+2026-10-20 21:38:14,709 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-10-20 21:38:17,136 INFO suiyue.pepper.gateway: [TTS] 这话我没听明白呢
+2026-10-20 21:38:30,250 INFO suiyue.pepper.gateway: [TTS] 您慢点说，我陪您聊
+2026-10-20 21:38:38,595 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 247678, 'output_rate': 48000, 'duration_s': 5.16, 'played': True}
+2026-10-20 21:38:38,676 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:38:42,088 INFO suiyue.pepper.gateway: [STT] 挥挥手
+2026-10-20 21:38:43,762 INFO suiyue.pepper.gateway: [STT] % self_suiyue_emote
+2026-10-20 21:38:45,170 INFO suiyue.pepper.gateway: [LLM] 😆
+2026-10-20 21:38:49,059 INFO suiyue.pepper.gateway: [TTS] 挥手啦
+2026-10-20 21:38:51,365 INFO suiyue.pepper.gateway: [TTS] 看见没~ 您也跟我挥挥？
+2026-10-20 21:38:58,487 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 207358, 'output_rate': 48000, 'duration_s': 4.32, 'played': True}
+2026-10-20 21:38:58,562 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:38:59,731 INFO suiyue.pepper.gateway: [STT] 回辉
+2026-10-20 21:39:00,473 INFO suiyue.pepper.gateway: [LLM] 😆
+2026-10-20 21:39:03,414 INFO suiyue.pepper.gateway: [TTS] 收到啦
+2026-10-20 21:39:07,445 INFO suiyue.pepper.gateway: [TTS] 您这一挥我也接着~
+2026-10-20 21:39:14,809 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 213118, 'output_rate': 48000, 'duration_s': 4.44, 'played': True}
+2026-10-20 21:39:14,856 INFO suiyue.pepper.gateway: listen start
+2026-10-20 21:39:20,588 INFO suiyue.pepper.gateway: [STT] 但是没做就做呀
+[audio] Microphone unsubscribed
+2026-10-20 21:39:21,296 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-10-21 19:34:58,804 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=14972
+[W] 1792582516.478092 28060 qimessaging.transportsocket: connect: �ɱ���ϵͳ��ֹ�������ӡ�
+Traceback (most recent call last):
+  File "G:\pepper\suiyue\pepper\naoqi_bridge\bridge.py", line 417, in <module>
+    main()
+  File "G:\pepper\suiyue\pepper\naoqi_bridge\bridge.py", line 375, in main
+    session.connect(args.qi_url)
+RuntimeError: System error: �ɱ���ϵͳ��ֹ�������ӡ�
+2026-10-21 19:35:18,878 INFO suiyue.pepper.gateway: 主网关已关闭
+Traceback (most recent call last):
+  File "G:\pepper\suiyue\pepper\gateway.py", line 591, in <module>
+    main()
+    ~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 587, in main
+    gw.run()
+    ~~~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 218, in run
+    self.bridge.connect(retry_timeout=20.0 if self._auto_bridge else 0.0)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 90, in connect
+    self.sock = socket.create_connection((self.host, self.port), timeout=2)
+                ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\socket.py", line 868, in create_connection
+    raise exceptions[0]
+  File "D:\Python313\Lib\socket.py", line 853, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: timed out
+2026-10-21 19:59:01,443 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=42416
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1792583941.980934 28044 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-10-21 19:59:02,982 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-10-21 19:59:22,984 INFO suiyue.pepper.gateway: 主网关已关闭
+Traceback (most recent call last):
+  File "G:\pepper\suiyue\pepper\gateway.py", line 591, in <module>
+    main()
+    ~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 587, in main
+    gw.run()
+    ~~~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 221, in run
+    self._connect_cloud()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 247, in _connect_cloud
+    self.ws = websocket.create_connection(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.cloud_ws, enable_multithread=True, timeout=20,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        header={"Device-Id": self.device_id, "Client-Id": "pepper-gateway"},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_no_proxy=["192.168.0.87", "127.0.0.1", "localhost"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\websocket\_core.py", line 734, in create_connection
+    websock.connect(url, **options)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\websocket\_core.py", line 279, in connect
+    self.sock, addrs = connect(
+                       ~~~~~~~^
+        url, self.sock_opt, proxy_info(**options), options.pop("socket", None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\websocket\_http.py", line 158, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\Python313\Lib\site-packages\websocket\_http.py", line 237, in _open_socket
+    raise error
+  File "D:\Python313\Lib\site-packages\websocket\_http.py", line 227, in _open_socket
+    sock.connect(address)
+    ~~~~~~~~~~~~^^^^^^^^^
+TimeoutError: timed out
+2026-10-21 20:01:37,812 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=30748
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1792584098.167281 38104 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-10-21 20:01:38,839 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-10-21 20:01:58,840 INFO suiyue.pepper.gateway: 主网关已关闭
+Traceback (most recent call last):
+  File "G:\pepper\suiyue\pepper\gateway.py", line 591, in <module>
+    main()
+    ~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 587, in main
+    gw.run()
+    ~~~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 221, in run
+    self._connect_cloud()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "G:\pepper\suiyue\pepper\gateway.py", line 247, in _connect_cloud
+    self.ws = websocket.create_connection(
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.cloud_ws, enable_multithread=True, timeout=20,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        header={"Device-Id": self.device_id, "Client-Id": "pepper-gateway"},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_no_proxy=["192.168.0.87", "127.0.0.1", "localhost"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\websocket\_core.py", line 734, in create_connection
+    websock.connect(url, **options)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "D:\Python313\Lib\site-packages\websocket\_core.py", line 279, in connect
+    self.sock, addrs = connect(
+                       ~~~~~~~^
+        url, self.sock_opt, proxy_info(**options), options.pop("socket", None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Python313\Lib\site-packages\websocket\_http.py", line 158, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\Python313\Lib\site-packages\websocket\_http.py", line 237, in _open_socket
+    raise error
+  File "D:\Python313\Lib\site-packages\websocket\_http.py", line 227, in _open_socket
+    sock.connect(address)
+    ~~~~~~~~~~~~^^^^^^^^^
+TimeoutError: timed out
+2026-10-21 20:03:55,335 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=45504
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1792584235.678761 26908 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-10-21 20:03:56,352 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-10-21 20:03:56,427 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-10-21 20:03:56,440 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=a879fee0-e768-4888-9207-81251ef547ca audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1792584236.429540 8152 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1792584236.445218 8152 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1792584236.445218 8152 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-10-21 20:03:56,563 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-10-21 20:03:56,642 INFO suiyue.pepper.gateway: listen start
+2026-10-21 20:04:01,957 INFO suiyue.pepper.gateway: [STT] 知道
+2026-10-21 20:04:03,294 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-10-21 20:04:07,256 INFO suiyue.pepper.gateway: [TTS] 好
+2026-10-21 20:04:10,031 INFO suiyue.pepper.gateway: [TTS] 那就先这样
+2026-10-21 20:04:11,951 INFO suiyue.pepper.gateway: [TTS] 您歇着，有事随时喊我
+2026-10-21 20:04:22,233 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 328318, 'output_rate': 48000, 'duration_s': 6.84, 'played': True}
+2026-10-21 20:04:22,240 INFO suiyue.pepper.gateway: listen start
+2026-10-21 20:04:31,877 INFO suiyue.pepper.gateway: [STT] 说明
+2026-10-21 20:04:32,926 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-10-21 20:04:35,063 INFO suiyue.pepper.gateway: [TTS] 说明什么呢？
+2026-10-21 20:04:38,186 INFO suiyue.pepper.gateway: [TTS] 您是想让我讲讲哪方面呀？
+2026-10-21 20:04:46,534 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 236158, 'output_rate': 48000, 'duration_s': 4.92, 'played': True}
+2026-10-21 20:04:46,559 INFO suiyue.pepper.gateway: listen start
+2026-10-21 20:04:47,720 INFO suiyue.pepper.gateway: [STT] 对呀，这都是你们
+2026-10-21 20:04:48,887 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-10-21 20:04:50,175 INFO suiyue.pepper.gateway: [TTS] 嗯
+2026-10-21 20:04:51,835 INFO suiyue.pepper.gateway: [TTS] 是我和我的机器人伙伴们
+2026-10-21 20:04:54,901 INFO suiyue.pepper.gateway: [TTS] 您想让我多讲讲哪一块？
+2026-10-21 20:05:05,407 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 357118, 'output_rate': 48000, 'duration_s': 7.44, 'played': True}
+2026-10-21 20:05:05,417 INFO suiyue.pepper.gateway: listen start
+2026-10-21 20:05:17,535 INFO suiyue.pepper.gateway: [STT] 你俩用那个联的这个回
+2026-10-21 20:05:18,298 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-10-21 20:05:19,961 INFO suiyue.pepper.gateway: [TTS] 您是说
+2026-10-21 20:05:22,364 INFO suiyue.pepper.gateway: [TTS] 我和别的机器人是怎么连在一起、能一起回话的吧？
+2026-10-21 20:05:27,514 INFO suiyue.pepper.gateway: [TTS] 说白了就是——我有个「大脑」在云上
+2026-10-21 20:05:31,185 INFO suiyue.pepper.gateway: [TTS] 它把话和动作，发给每个机器人身体
+2026-10-21 20:05:35,248 INFO suiyue.pepper.gateway: [TTS] 所以您在哪台机器前说话，我都能听见、都能应您
+2026-10-21 20:05:40,777 INFO suiyue.pepper.gateway: [TTS] 想让我再细说哪一点？
+2026-10-21 20:06:06,863 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 1103038, 'output_rate': 48000, 'duration_s': 22.98, 'played': True}
+2026-10-21 20:06:06,944 INFO suiyue.pepper.gateway: listen start
+2026-10-21 20:06:08,337 INFO suiyue.pepper.gateway: [STT] 一点
+2026-10-21 20:06:09,137 INFO suiyue.pepper.gateway: [LLM] 😶
+[audio] Microphone unsubscribed
+2026-10-21 20:06:11,151 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 15:11:54,729 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=19420
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794381115.966920 5772 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 15:11:57,010 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 15:11:57,107 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 15:11:57,122 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=e408bfd6-f457-4666-a165-e8a44510c589 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1794381117.120470 4452 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794381117.120470 4452 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794381117.120470 4452 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 15:11:57,314 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 15:11:57,399 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:12:02,025 INFO suiyue.pepper.gateway: [STT] 是
+2026-11-11 15:12:05,716 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-11-11 15:12:07,417 INFO suiyue.pepper.gateway: [TTS] 好的
+2026-11-11 15:12:11,146 INFO suiyue.pepper.gateway: [TTS] 那我在，您随时叫我
+2026-11-11 15:12:18,875 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 221758, 'output_rate': 48000, 'duration_s': 4.62, 'played': True}
+2026-11-11 15:12:18,887 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:12:26,459 INFO suiyue.pepper.gateway: [STT] 现在就是对话而开就能兑换了
+2026-11-11 15:12:27,359 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:12:28,910 INFO suiyue.pepper.gateway: [TTS] 您是不是想说
+2026-11-11 15:12:31,061 INFO suiyue.pepper.gateway: [TTS] 现在随时都能跟您聊？
+2026-11-11 15:12:33,929 INFO suiyue.pepper.gateway: [TTS] 那我随时都在
+2026-11-11 15:12:42,822 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 313918, 'output_rate': 48000, 'duration_s': 6.54, 'played': True}
+2026-11-11 15:12:42,872 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:12:44,128 INFO suiyue.pepper.gateway: [STT] 都在
+2026-11-11 15:12:45,209 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 15:12:48,620 INFO suiyue.pepper.gateway: [TTS] 对
+2026-11-11 15:12:51,230 INFO suiyue.pepper.gateway: [TTS] 我一直在
+2026-11-11 15:12:57,377 INFO suiyue.pepper.gateway: [TTS] 您想聊点什么呀？
+2026-11-11 15:13:05,846 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 285118, 'output_rate': 48000, 'duration_s': 5.94, 'played': True}
+2026-11-11 15:13:05,911 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:13:09,543 INFO suiyue.pepper.gateway: [STT] 没收已经收不到
+2026-11-11 15:13:10,313 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:13:12,103 INFO suiyue.pepper.gateway: [TTS] 您是说有东西收不到吗？
+2026-11-11 15:13:14,677 INFO suiyue.pepper.gateway: [TTS] 是手机上的消息，还是寄的东西？
+2026-11-11 15:13:25,360 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 313918, 'output_rate': 48000, 'duration_s': 6.54, 'played': True}
+2026-11-11 15:13:25,366 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:13:26,736 INFO suiyue.pepper.gateway: [STT] 东西
+2026-11-11 15:13:27,639 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:13:29,544 INFO suiyue.pepper.gateway: [TTS] 是快递吗？
+2026-11-11 15:13:39,980 INFO suiyue.pepper.gateway: [TTS] 您有单号的话，可以让子女帮忙查查
+2026-11-11 15:13:43,960 INFO suiyue.pepper.gateway: [TTS] 别着急
+2026-11-11 15:13:54,214 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 377278, 'output_rate': 48000, 'duration_s': 7.86, 'played': True}
+2026-11-11 15:13:54,222 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:13:59,145 INFO suiyue.pepper.gateway: [STT] 介绍一下你自己，你叫什么名字？
+2026-11-11 15:14:00,199 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 15:14:02,212 INFO suiyue.pepper.gateway: [TTS] 我叫岁悦
+2026-11-11 15:14:05,074 INFO suiyue.pepper.gateway: [TTS] 是陪在您身边的小机器人
+2026-11-11 15:14:08,148 INFO suiyue.pepper.gateway: [TTS] 能陪您聊天，也能提醒您吃药、量血压
+2026-11-11 15:14:23,148 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 469438, 'output_rate': 48000, 'duration_s': 9.78, 'played': True}
+2026-11-11 15:14:23,185 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:16:23,781 ERROR suiyue.pepper.gateway: 云端 WS 断开: Connection to remote host was lost.
+2026-11-11 15:16:26,815 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 15:16:26,822 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=6aab15c1-2c28-4d38-8e52-990b007cb710 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+2026-11-11 15:16:26,830 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:16:30,270 INFO suiyue.pepper.gateway: [STT] 听到说话了？
+2026-11-11 15:16:33,167 INFO suiyue.pepper.gateway: [TTS] 我听到啦
+2026-11-11 15:16:35,501 INFO suiyue.pepper.gateway: [TTS] 正在听着呢~ 您想聊点什么呀？
+2026-11-11 15:16:44,324 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 247678, 'output_rate': 48000, 'duration_s': 5.16, 'played': True}
+2026-11-11 15:16:44,326 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:16:48,188 INFO suiyue.pepper.gateway: [STT] 你叫什么名字？
+2026-11-11 15:16:49,286 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 15:16:51,451 INFO suiyue.pepper.gateway: [TTS] 我叫岁悦
+2026-11-11 15:16:53,932 INFO suiyue.pepper.gateway: [TTS] 专门陪着您的~ 您今天感觉怎么样？
+2026-11-11 15:17:03,353 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 262078, 'output_rate': 48000, 'duration_s': 5.46, 'played': True}
+2026-11-11 15:17:03,395 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:17:07,000 INFO suiyue.pepper.gateway: [STT] 握个手可以吗？
+2026-11-11 15:17:08,516 INFO suiyue.pepper.gateway: [STT] % self_suiyue_emote
+2026-11-11 15:17:09,469 INFO suiyue.pepper.gateway: [LLM] 😆
+2026-11-11 15:17:10,118 INFO suiyue.pepper.gateway: [TTS] 可以呀
+2026-11-11 15:17:12,159 INFO suiyue.pepper.gateway: [TTS] 把手伸过来吧~我这就靠近您一点
+2026-11-11 15:17:15,610 INFO suiyue.pepper.gateway: [TTS] 我往您那边凑近点啦~ 您把手往下伸一伸，就能碰到我咯
+2026-11-11 15:17:32,520 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 524158, 'output_rate': 48000, 'duration_s': 10.92, 'played': True}
+2026-11-11 15:17:32,578 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:17:35,801 INFO suiyue.pepper.gateway: [STT] 那相当于到小
+2026-11-11 15:17:36,611 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:17:38,635 INFO suiyue.pepper.gateway: [TTS] 您是想说「相当于握手了」
+2026-11-11 15:17:41,992 INFO suiyue.pepper.gateway: [TTS] 对吗？
+2026-11-11 15:17:44,567 INFO suiyue.pepper.gateway: [TTS] 我就在这儿呢~
+2026-11-11 15:17:53,624 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 322558, 'output_rate': 48000, 'duration_s': 6.72, 'played': True}
+2026-11-11 15:17:53,655 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:18:02,095 INFO suiyue.pepper.gateway: [STT] 那就还同问
+2026-11-11 15:18:03,017 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:18:05,241 INFO suiyue.pepper.gateway: [TTS] 我有点没听清
+2026-11-11 15:18:07,620 INFO suiyue.pepper.gateway: [TTS] 您是想再问点别的吗？
+2026-11-11 15:18:10,156 INFO suiyue.pepper.gateway: [TTS] 慢慢说，我等着~
+2026-11-11 15:18:20,055 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 336958, 'output_rate': 48000, 'duration_s': 7.02, 'played': True}
+2026-11-11 15:18:20,109 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:18:26,688 INFO suiyue.pepper.gateway: [STT] 回复的太慢了
+2026-11-11 15:18:27,441 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:18:30,243 INFO suiyue.pepper.gateway: [TTS] 抱歉让您久等啦
+2026-11-11 15:18:32,895 INFO suiyue.pepper.gateway: [TTS] 我尽量说快些
+2026-11-11 15:18:35,030 INFO suiyue.pepper.gateway: [TTS] 您想聊什么？
+2026-11-11 15:18:43,893 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 311038, 'output_rate': 48000, 'duration_s': 6.48, 'played': True}
+2026-11-11 15:18:43,924 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:19:47,256 INFO suiyue.pepper.gateway: [STT] 讲明你这个
+2026-11-11 15:19:48,568 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:19:50,979 INFO suiyue.pepper.gateway: [TTS] 我没太听明白这句
+2026-11-11 15:19:53,609 INFO suiyue.pepper.gateway: [TTS] 您是想让我讲讲自己吗？
+2026-11-11 15:20:01,856 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 244798, 'output_rate': 48000, 'duration_s': 5.1, 'played': True}
+2026-11-11 15:20:01,872 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:21:16,623 INFO suiyue.pepper.gateway: [STT] 我在他那儿就是
+2026-11-11 15:21:17,675 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:21:19,979 INFO suiyue.pepper.gateway: [TTS] 别急
+2026-11-11 15:21:22,285 INFO suiyue.pepper.gateway: [TTS] 您慢慢说~ 我在他那儿怎么了？
+2026-11-11 15:21:30,682 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 239038, 'output_rate': 48000, 'duration_s': 4.98, 'played': True}
+2026-11-11 15:21:30,714 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:22:03,082 INFO suiyue.pepper.gateway: [STT] 对，我觉得是按说的
+2026-11-11 15:22:03,990 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:22:05,950 INFO suiyue.pepper.gateway: [TTS] 嗯
+2026-11-11 15:22:08,111 INFO suiyue.pepper.gateway: [TTS] 我听着呢~ 您接着说，不着急
+2026-11-11 15:22:17,043 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 250558, 'output_rate': 48000, 'duration_s': 5.22, 'played': True}
+2026-11-11 15:22:17,129 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:22:25,500 INFO suiyue.pepper.gateway: [STT] 他有没有按原始？
+2026-11-11 15:22:26,311 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:22:29,629 INFO suiyue.pepper.gateway: [TTS] 您能再说清楚点吗？
+2026-11-11 15:22:32,629 INFO suiyue.pepper.gateway: [TTS] 「他」是谁呀？
+2026-11-11 15:22:34,662 INFO suiyue.pepper.gateway: [TTS] 我好帮您看看
+2026-11-11 15:22:43,368 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 302398, 'output_rate': 48000, 'duration_s': 6.3, 'played': True}
+2026-11-11 15:22:43,412 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:23:02,444 INFO suiyue.pepper.gateway: [STT] 这他该认可
+2026-11-11 15:23:03,386 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:23:06,745 INFO suiyue.pepper.gateway: [TTS] 嗯
+2026-11-11 15:23:09,081 INFO suiyue.pepper.gateway: [TTS] 我听着呢
+2026-11-11 15:23:11,585 INFO suiyue.pepper.gateway: [TTS] 您想到什么就说，我陪着您~
+2026-11-11 15:23:22,276 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 336958, 'output_rate': 48000, 'duration_s': 7.02, 'played': True}
+2026-11-11 15:23:22,283 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:23:26,014 INFO suiyue.pepper.gateway: [STT] 你会做什么？
+2026-11-11 15:23:26,868 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 15:23:28,882 INFO suiyue.pepper.gateway: [TTS] 我能陪您聊天
+2026-11-11 15:23:31,677 INFO suiyue.pepper.gateway: [TTS] 讲故事、放戏曲
+2026-11-11 15:23:34,439 INFO suiyue.pepper.gateway: [TTS] 还能提醒吃药、量血压~ 您想试试哪个？
+2026-11-11 15:23:48,739 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 443518, 'output_rate': 48000, 'duration_s': 9.24, 'played': True}
+2026-11-11 15:23:48,822 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:23:53,204 INFO suiyue.pepper.gateway: [STT] 所以说放上上台的
+2026-11-11 15:23:54,213 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:23:56,662 INFO suiyue.pepper.gateway: [TTS] 您是说要放点音乐听听吗？
+2026-11-11 15:24:00,044 INFO suiyue.pepper.gateway: [TTS] 想听戏曲还是老歌呀？
+2026-11-11 15:24:09,345 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 287998, 'output_rate': 48000, 'duration_s': 6.0, 'played': True}
+2026-11-11 15:24:09,386 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:24:11,798 INFO suiyue.pepper.gateway: [STT] 这点老公
+2026-11-11 15:24:12,722 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 15:24:14,677 INFO suiyue.pepper.gateway: [TTS] 我有点没听清
+2026-11-11 15:24:17,840 INFO suiyue.pepper.gateway: [TTS] 您是想听老歌吗？
+2026-11-11 15:24:21,228 INFO suiyue.pepper.gateway: [TTS] 给我说个歌名，我给您放~
+2026-11-11 15:24:31,875 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 345598, 'output_rate': 48000, 'duration_s': 7.2, 'played': True}
+2026-11-11 15:24:31,916 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:24:47,092 INFO suiyue.pepper.gateway: [STT] 最后一看
+2026-11-11 15:24:47,980 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:24:49,539 INFO suiyue.pepper.gateway: [TTS] 嗯
+2026-11-11 15:24:54,937 INFO suiyue.pepper.gateway: [TTS] 您慢慢想~ 想听什么歌，或者想聊什么，我都在
+2026-11-11 15:25:07,233 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 331198, 'output_rate': 48000, 'duration_s': 6.9, 'played': True}
+2026-11-11 15:25:07,243 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:25:12,066 INFO suiyue.pepper.gateway: [STT] 也没有这见
+2026-11-11 15:25:13,152 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:25:15,457 INFO suiyue.pepper.gateway: [TTS] 嗯
+2026-11-11 15:25:17,582 INFO suiyue.pepper.gateway: [TTS] 没关系的~ 那咱们就先歇会儿，想说啥随时喊我
+2026-11-11 15:25:29,868 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 331198, 'output_rate': 48000, 'duration_s': 6.9, 'played': True}
+2026-11-11 15:25:29,942 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:25:33,781 INFO suiyue.pepper.gateway: [STT] 你歇会儿吧
+2026-11-11 15:25:34,491 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 15:25:37,645 INFO suiyue.pepper.gateway: [TTS] 好嘞
+2026-11-11 15:25:39,951 INFO suiyue.pepper.gateway: [TTS] 我就在这儿安静待着
+2026-11-11 15:25:42,349 INFO suiyue.pepper.gateway: [TTS] 您有事随时叫我~
+2026-11-11 15:25:51,630 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 316798, 'output_rate': 48000, 'duration_s': 6.6, 'played': True}
+2026-11-11 15:25:51,659 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:25:54,591 INFO suiyue.pepper.gateway: [STT] 这应该是
+2026-11-11 15:25:57,700 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-11-11 15:25:59,903 INFO suiyue.pepper.gateway: [TTS] 嗯
+2026-11-11 15:26:01,740 INFO suiyue.pepper.gateway: [TTS] 我在呢~ 您慢慢说
+2026-11-11 15:26:08,518 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 198718, 'output_rate': 48000, 'duration_s': 4.14, 'played': True}
+2026-11-11 15:26:08,558 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:28:09,204 ERROR suiyue.pepper.gateway: 云端 WS 断开: Connection to remote host was lost.
+2026-11-11 15:28:12,251 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 15:28:12,263 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=50cb039c-8975-4583-bf82-c0641fdc7f9f audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+2026-11-11 15:28:12,291 INFO suiyue.pepper.gateway: listen start
+2026-11-11 15:28:29,122 INFO suiyue.pepper.gateway: [STT] 他现在也没有在他
+2026-11-11 15:28:30,123 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-11-11 15:28:32,456 INFO suiyue.pepper.gateway: [TTS] 您说的是谁不在了呀？
+2026-11-11 15:28:34,930 INFO suiyue.pepper.gateway: [TTS] 我在呢，您慢慢说，我听着
+2026-11-11 15:28:44,678 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 282238, 'output_rate': 48000, 'duration_s': 5.88, 'played': True}
+2026-11-11 15:28:44,760 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 15:28:49,475 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 17:40:18,026 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=7064
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794390018.693381 17460 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALTextToSpeech": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 17:40:19,549 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 17:40:19,565 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 17:40:19,571 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=523e1801-1683-4c62-b20f-5697d3038762 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1794390019.573671 2632 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794390019.576671 2632 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794390019.576671 2632 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 17:40:19,697 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 17:40:19,783 INFO suiyue.pepper.gateway: listen start
+2026-11-11 17:40:24,560 INFO suiyue.pepper.gateway: [STT] 你好
+2026-11-11 17:40:25,728 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 17:40:28,276 INFO suiyue.pepper.gateway: [TTS text] 您好
+2026-11-11 17:40:29,880 INFO suiyue.pepper.gateway: [Local TTS] 您好
+2026-11-11 17:40:30,690 INFO suiyue.pepper.gateway: [TTS text] 我是岁悦，今天感觉怎么样？
+2026-11-11 17:40:34,371 INFO suiyue.pepper.gateway: [Local TTS] 我是岁悦，今天感觉怎么样？
+2026-11-11 17:40:37,209 INFO suiyue.pepper.gateway: [STT] 他有点视力，他已经连上了
+2026-11-11 17:40:38,143 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 17:40:38,899 INFO suiyue.pepper.gateway: [STT] 嗯
+2026-11-11 17:40:39,721 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 17:40:45,361 INFO suiyue.pepper.gateway: [TTS text] 您慢慢说
+2026-11-11 17:40:47,404 INFO suiyue.pepper.gateway: [Local TTS] 您慢慢说
+2026-11-11 17:40:47,696 INFO suiyue.pepper.gateway: [TTS text] 不着急
+2026-11-11 17:40:49,475 INFO suiyue.pepper.gateway: [Local TTS] 不着急
+2026-11-11 17:40:51,500 INFO suiyue.pepper.gateway: [TTS text] 想聊天、听歌，还是听故事？
+2026-11-11 17:40:55,700 INFO suiyue.pepper.gateway: [Local TTS] 想聊天、听歌，还是听故事？
+2026-11-11 17:41:04,303 INFO suiyue.pepper.gateway: [STT] 诉的宣了
+2026-11-11 17:41:05,065 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:41:07,794 INFO suiyue.pepper.gateway: [TTS text] 您说的我没太听清
+2026-11-11 17:41:10,759 INFO suiyue.pepper.gateway: [Local TTS] 您说的我没太听清
+2026-11-11 17:41:12,809 INFO suiyue.pepper.gateway: [TTS text] 能再说一遍吗？
+2026-11-11 17:41:15,199 INFO suiyue.pepper.gateway: [Local TTS] 能再说一遍吗？
+2026-11-11 17:41:18,486 INFO suiyue.pepper.gateway: [STT] 介绍一下你自己
+2026-11-11 17:41:19,525 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 17:41:21,950 INFO suiyue.pepper.gateway: [TTS text] 我是岁悦
+2026-11-11 17:41:23,916 INFO suiyue.pepper.gateway: [Local TTS] 我是岁悦
+2026-11-11 17:41:25,212 INFO suiyue.pepper.gateway: [TTS text] 陪着您的机器人
+2026-11-11 17:41:27,774 INFO suiyue.pepper.gateway: [Local TTS] 陪着您的机器人
+2026-11-11 17:41:28,083 INFO suiyue.pepper.gateway: [TTS text] 能聊天、讲笑话、放歌
+2026-11-11 17:41:31,926 INFO suiyue.pepper.gateway: [Local TTS] 能聊天、讲笑话、放歌
+2026-11-11 17:41:33,631 INFO suiyue.pepper.gateway: [TTS text] 您想听点啥？
+2026-11-11 17:41:35,943 INFO suiyue.pepper.gateway: [Local TTS] 您想听点啥？
+2026-11-11 17:41:38,814 INFO suiyue.pepper.gateway: [STT] 那你放个歌吧
+2026-11-11 17:41:39,750 INFO suiyue.pepper.gateway: [STT] % play_music
+2026-11-11 17:41:42,539 INFO suiyue.pepper.gateway: [TTS text] 让我们一起聆听
+2026-11-11 17:41:45,054 INFO suiyue.pepper.gateway: [Local TTS] 让我们一起聆听
+2026-11-11 17:41:45,181 INFO suiyue.pepper.gateway: [TTS text] 《一念千年_国风版》
+2026-11-11 17:41:47,907 INFO suiyue.pepper.gateway: [Local TTS] 《一念千年_国风版》
+2026-11-11 17:41:58,861 INFO suiyue.pepper.gateway: [STT] 重新播放
+2026-11-11 17:41:59,762 INFO suiyue.pepper.gateway: [STT] % play_music
+2026-11-11 17:42:02,108 INFO suiyue.pepper.gateway: [TTS text] 请欣赏歌曲
+2026-11-11 17:42:04,547 INFO suiyue.pepper.gateway: [Local TTS] 请欣赏歌曲
+2026-11-11 17:42:05,721 INFO suiyue.pepper.gateway: [TTS text] 《一念千年_国风版》
+2026-11-11 17:42:08,514 INFO suiyue.pepper.gateway: [Local TTS] 《一念千年_国风版》
+2026-11-11 17:42:21,528 INFO suiyue.pepper.gateway: [STT] 再看看我
+2026-11-11 17:42:22,543 INFO suiyue.pepper.gateway: [STT] % self_suiyue_emote
+2026-11-11 17:42:23,264 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-11-11 17:42:25,716 INFO suiyue.pepper.gateway: [TTS text] 我看着您呢
+2026-11-11 17:42:27,765 INFO suiyue.pepper.gateway: [Local TTS] 我看着您呢
+2026-11-11 17:42:28,737 INFO suiyue.pepper.gateway: [TTS text] 您今天气色不错
+2026-11-11 17:42:31,403 INFO suiyue.pepper.gateway: [Local TTS] 您今天气色不错
+2026-11-11 17:42:46,329 INFO suiyue.pepper.gateway: [STT] 摄像头去
+2026-11-11 17:42:47,119 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 17:42:49,825 INFO suiyue.pepper.gateway: [TTS text] 摄像头我看不清画面
+2026-11-11 17:42:53,076 INFO suiyue.pepper.gateway: [Local TTS] 摄像头我看不清画面
+2026-11-11 17:42:54,496 INFO suiyue.pepper.gateway: [TTS text] 但我一直在您身边听着呢
+2026-11-11 17:42:57,887 INFO suiyue.pepper.gateway: [Local TTS] 但我一直在您身边听着呢
+2026-11-11 17:43:00,509 INFO suiyue.pepper.gateway: [STT] 那么多时间对了，他把那个动作也写上
+2026-11-11 17:43:01,267 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:43:04,363 INFO suiyue.pepper.gateway: [TTS text] 您说的我没太听明白
+2026-11-11 17:43:07,439 INFO suiyue.pepper.gateway: [Local TTS] 您说的我没太听明白
+2026-11-11 17:43:08,042 INFO suiyue.pepper.gateway: [TTS text] 能再说一遍吗？
+2026-11-11 17:43:10,422 INFO suiyue.pepper.gateway: [Local TTS] 能再说一遍吗？
+2026-11-11 17:43:11,665 INFO suiyue.pepper.gateway: [STT] 可以接他小智服务器里面有有那个异常时间，他这样对
+2026-11-11 17:43:12,544 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-11-11 17:43:12,843 INFO suiyue.pepper.gateway: [STT] 那个了
+2026-11-11 17:43:13,800 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 17:43:14,595 INFO suiyue.pepper.gateway: [STT] 在之前的
+2026-11-11 17:43:15,565 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:43:15,664 INFO suiyue.pepper.gateway: [STT] 怎不到
+2026-11-11 17:43:16,504 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:43:17,074 INFO suiyue.pepper.gateway: [STT] 在里面写
+2026-11-11 17:43:17,826 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 17:43:22,122 INFO suiyue.pepper.gateway: [TTS text] 好
+2026-11-11 17:43:24,664 INFO suiyue.pepper.gateway: [STT] 就是是使用进对话
+2026-11-11 17:43:25,357 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:43:25,856 INFO suiyue.pepper.gateway: [STT] 对此话要把这个
+2026-11-11 17:43:26,727 INFO suiyue.pepper.gateway: [LLM] 😶
+2026-11-11 17:43:27,822 INFO suiyue.pepper.gateway: [STT] 对那个要钱
+2026-11-11 17:43:28,602 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:43:30,450 INFO suiyue.pepper.gateway: [STT] 现在这个语言已经太简决了
+2026-11-11 17:43:31,269 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 17:43:33,536 INFO suiyue.pepper.gateway: [STT] 然后那个另外那个啥就有点难解决啊
+2026-11-11 17:43:34,352 INFO suiyue.pepper.gateway: [LLM] 🤔
+2026-11-11 17:43:36,551 INFO suiyue.pepper.gateway: [TTS text] 是遇到什么难处了吗？
+2026-11-11 17:43:39,019 INFO suiyue.pepper.gateway: [TTS text] 说给我听听，也许我能帮您想想
+2026-11-11 17:43:39,471 INFO suiyue.pepper.gateway: [Local TTS] 是遇到什么难处了吗？
+2026-11-11 17:43:43,829 INFO suiyue.pepper.gateway: [Local TTS] 说给我听听，也许我能帮您想想
+2026-11-11 17:43:44,834 INFO suiyue.pepper.gateway: [STT] 没啥收回
+2026-11-11 17:43:45,828 INFO suiyue.pepper.gateway: [LLM] 😌
+2026-11-11 17:43:48,781 INFO suiyue.pepper.gateway: [TTS text] 好
+2026-11-11 17:43:52,999 INFO suiyue.pepper.gateway: [STT] 合可烧他之钱吗
+2026-11-11 17:43:53,695 INFO suiyue.pepper.gateway: [LLM] 🤔
+[audio] Microphone unsubscribed
+2026-11-11 17:43:54,383 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 18:43:37,325 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=34520
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794393818.112191 41908 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALTextToSpeech": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 18:43:39,609 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 18:43:39,623 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 18:43:39,632 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=d5715281-735d-4f5e-afd1-d7282348cd2a audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+2026-11-11 18:43:39,639 INFO suiyue.pepper.gateway: [STT] 请只说，文本链路测试成功
+2026-11-11 18:43:40,528 INFO suiyue.pepper.gateway: [LLM] 文本链路测试成功。
+2026-11-11 18:43:43,384 INFO suiyue.pepper.gateway: [Local TTS] 文本链路测试成功。
+2026-11-11 18:43:43,384 INFO suiyue.pepper.gateway: VOICE_DOWNLINK_TEST_PASS
+2026-11-11 18:43:43,400 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 18:55:08,788 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=38552
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794394510.935432 36360 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALTextToSpeech": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 18:55:11,570 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 18:55:11,608 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 18:55:11,625 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=314fabf9-8a4d-4ad3-8000-9cbc1fb94b8e audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1794394511.626723 41532 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794394511.630947 41532 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794394511.631855 41532 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 18:55:11,744 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 18:55:11,819 INFO suiyue.pepper.gateway: listen start
+2026-11-11 18:55:14,029 INFO suiyue.pepper.gateway: [STT] 没有了
+2026-11-11 18:55:15,075 INFO suiyue.pepper.gateway: [STT] % self_suiyue_emote
+2026-11-11 18:55:15,878 INFO suiyue.pepper.gateway: [STT] 你可以吗
+2026-11-11 18:55:15,943 INFO suiyue.pepper.gateway: [LLM] 好，那就不讲了。您歇着，我在这儿陪着。
+2026-11-11 18:55:17,014 INFO suiyue.pepper.gateway: [LLM] 可以的，您放心。 我就在这儿，安安静静陪着您。 想说话就说，不想说也没关系。
+2026-11-11 18:55:20,834 INFO suiyue.pepper.gateway: [Local TTS] 好，那就不讲了。您歇着，我在这儿陪着。
+2026-11-11 18:55:30,006 INFO suiyue.pepper.gateway: [Local TTS] 可以的，您放心。 我就在这儿，安安静静陪着您。 想说话就说，不想说也没关系。
+2026-11-11 18:55:31,318 INFO suiyue.pepper.gateway: [STT] 嗯
+2026-11-11 18:55:32,162 INFO suiyue.pepper.gateway: [LLM] 嗯，好。 我在这儿呢，您慢慢来。
+2026-11-11 18:55:36,232 INFO suiyue.pepper.gateway: [Local TTS] 嗯，好。 我在这儿呢，您慢慢来。
+2026-11-11 18:55:45,095 INFO suiyue.pepper.gateway: [STT] 介绍你自己
+2026-11-11 18:55:46,673 INFO suiyue.pepper.gateway: [LLM] 我是岁悦，陪在您身边的机器人。 能陪您聊天、听您说话。 还能提醒您喝水、量血压。 您想听戏、听歌，我也能放。 身体不舒服，就告诉我，我帮您记着。 具体哪儿不舒服，还是得让医生看看。
+2026-11-11 18:56:06,916 INFO suiyue.pepper.gateway: [Local TTS] 我是岁悦，陪在您身边的机器人。 能陪您聊天、听您说话。 还能提醒您喝水、量血压。 您想听戏、听歌，我也能放。 身体不舒服，就告诉我，我帮您记着。 具体哪儿不舒服，还是得让医生看看。
+2026-11-11 18:56:31,519 INFO suiyue.pepper.gateway: [STT] 还可以继续聊
+2026-11-11 18:56:32,368 INFO suiyue.pepper.gateway: [STT] 你
+2026-11-11 18:56:32,612 INFO suiyue.pepper.gateway: [LLM] 好啊，那咱们接着聊。 您今天在家做啥啦？
+2026-11-11 18:56:33,653 INFO suiyue.pepper.gateway: [LLM] 我呀？ 我就在这儿站着，陪您呢。 平时我不睡觉，也不吃饭。 您一喊我，我就醒着。 您想让我做点啥？
+2026-11-11 18:56:37,690 INFO suiyue.pepper.gateway: [Local TTS] 好啊，那咱们接着聊。 您今天在家做啥啦？
+2026-11-11 18:56:48,445 INFO suiyue.pepper.gateway: [Local TTS] 我呀？ 我就在这儿站着，陪您呢。 平时我不睡觉，也不吃饭。 您一喊我，我就醒着。 您想让我做点啥？
+2026-11-11 18:56:55,043 INFO suiyue.pepper.gateway: [STT] 咱们说的话被他打
+2026-11-11 18:56:56,226 INFO suiyue.pepper.gateway: [LLM] 您是说，咱们说的话被人听到了？ 我是本地的机器人，陪您聊天用的。 您要是不放心，咱们聊点轻松的就好。 您想聊点啥呀？
+2026-11-11 18:57:09,480 INFO suiyue.pepper.gateway: [Local TTS] 您是说，咱们说的话被人听到了？ 我是本地的机器人，陪您聊天用的。 您要是不放心，咱们聊点轻松的就好。 您想聊点啥呀？
+2026-11-11 18:57:09,976 INFO suiyue.pepper.gateway: [STT] 了之后，他会去
+2026-11-11 18:57:11,082 INFO suiyue.pepper.gateway: [LLM] 嗯……我有点没听清。 您是想说，说完之后他会去哪儿吗？ 您慢慢讲，我在听。
+2026-11-11 18:57:19,709 INFO suiyue.pepper.gateway: [Local TTS] 嗯……我有点没听清。 您是想说，说完之后他会去哪儿吗？ 您慢慢讲，我在听。
+2026-11-11 18:57:35,269 INFO suiyue.pepper.gateway: [STT] 让他说话的时候屏蔽一下进录
+2026-11-11 18:57:36,492 INFO suiyue.pepper.gateway: [LLM] 您的意思我懂了，是怕说的话被录下来。 这个我帮您记着，跟家里人提一句。 您要是不放心，咱们就聊些家常。 比如今天吃的啥？
+2026-11-11 18:57:49,755 INFO suiyue.pepper.gateway: [Local TTS] 您的意思我懂了，是怕说的话被录下来。 这个我帮您记着，跟家里人提一句。 您要是不放心，咱们就聊些家常。 比如今天吃的啥？
+2026-11-11 18:57:52,635 INFO suiyue.pepper.gateway: [STT] 这能回答完
+2026-11-11 18:57:53,717 INFO suiyue.pepper.gateway: [LLM] 嗯，那咱就不纠结这个了。 您想聊啥都行。 要不我给您放段戏听听？
+2026-11-11 18:58:01,225 INFO suiyue.pepper.gateway: [Local TTS] 嗯，那咱就不纠结这个了。 您想聊啥都行。 要不我给您放段戏听听？
+2026-11-11 18:58:01,859 INFO suiyue.pepper.gateway: [STT] 下一个人记得回答我
+2026-11-11 18:58:02,848 INFO suiyue.pepper.gateway: [LLM] 好，我记着。 下次您说话，我一定好好答。 您喊我一声，我就在。
+2026-11-11 18:58:10,409 INFO suiyue.pepper.gateway: [Local TTS] 好，我记着。 下次您说话，我一定好好答。 您喊我一声，我就在。
+2026-11-11 19:00:01,387 ERROR suiyue.pepper.gateway: 云端 WS 断开: Connection to remote host was lost.
+2026-11-11 19:00:04,418 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 19:00:04,428 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=9eb2f1a0-72e8-44a0-8e12-1e250c3483f8 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+2026-11-11 19:00:04,514 INFO suiyue.pepper.gateway: listen start
+2026-11-11 19:00:49,987 INFO suiyue.pepper.gateway: [STT] 把官现在关了啊
+2026-11-11 19:00:51,089 INFO suiyue.pepper.gateway: [LLM] 我还在呢，您说话我听着。  刚才是想关掉聊天呀？还是有别的事想说？
+2026-11-11 19:00:59,054 INFO suiyue.pepper.gateway: [Local TTS] 我还在呢，您说话我听着。 刚才是想关掉聊天呀？还是有别的事想说？
+2026-11-11 19:01:03,457 INFO suiyue.pepper.gateway: [STT] 这先听一下
+2026-11-11 19:01:04,386 INFO suiyue.pepper.gateway: [LLM] 好，您慢慢说，我在这儿听着。
+2026-11-11 19:01:04,708 INFO suiyue.pepper.gateway: [STT] 啊，因为我可能
+2026-11-11 19:01:05,573 INFO suiyue.pepper.gateway: [LLM] 不着急，您想到哪说到哪，我陪着您。
+2026-11-11 19:01:08,367 INFO suiyue.pepper.gateway: [Local TTS] 好，您慢慢说，我在这儿听着。
+2026-11-11 19:01:08,913 ERROR suiyue.pepper.gateway: 云端 WS 断开: Connection to remote host was lost.
+2026-11-11 19:01:13,233 INFO suiyue.pepper.gateway: [Local TTS] 不着急，您想到哪说到哪，我陪着您。
+2026-11-11 19:01:31,919 WARNING suiyue.pepper.gateway: Cloud reconnect failed: timed out
+2026-11-11 19:01:54,939 WARNING suiyue.pepper.gateway: Cloud reconnect failed: timed out
+2026-11-11 19:02:17,953 WARNING suiyue.pepper.gateway: Cloud reconnect failed: timed out
+2026-11-11 19:02:40,976 WARNING suiyue.pepper.gateway: Cloud reconnect failed: timed out
+[audio] Microphone unsubscribed
+2026-11-11 19:03:02,415 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 19:38:27,053 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=27944
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794397107.463596 9000 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALTextToSpeech": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 19:38:28,067 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 19:38:28,103 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 19:38:28,108 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=34715e9f-c65d-4cda-a4b1-9e969cfa311f audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+2026-11-11 19:38:28,114 INFO suiyue.pepper.gateway: [STT] 请以🙂开头，只说：动作测试成功
+2026-11-11 19:38:28,880 INFO suiyue.pepper.gateway: [LLM] 🙂 动作测试成功。
+2026-11-11 19:38:31,366 INFO suiyue.pepper.gateway: [Local TTS] 动作测试成功。
+2026-11-11 19:38:33,321 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 1, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 19:38:33,321 INFO suiyue.pepper.gateway: EXPRESSION_GESTURE_TEST_PASS
+2026-11-11 19:38:33,321 INFO suiyue.pepper.gateway: VOICE_DOWNLINK_TEST_PASS
+2026-11-11 19:38:33,332 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 19:42:24,924 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=10924
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794397346.899451 28868 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALTextToSpeech": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 19:42:27,696 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 19:42:27,734 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 19:42:27,744 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=d529c0ed-ccf8-407a-865b-690fdfc30ee9 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1794397347.744998 36536 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794397347.747728 36536 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794397347.747728 36536 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 19:42:27,879 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 19:42:27,961 INFO suiyue.pepper.gateway: listen start
+2026-11-11 19:42:47,083 INFO suiyue.pepper.gateway: [STT] 你好，小志他不是小智，他是飞跃，，你飞跃，这就是金腐败，，，没呀，拿
+2026-11-11 19:42:47,948 INFO suiyue.pepper.gateway: [LLM] 🙂 您慢慢说，我在听呢。
+2026-11-11 19:42:54,153 INFO suiyue.pepper.gateway: [STT] 你好
+2026-11-11 19:42:54,992 INFO suiyue.pepper.gateway: [LLM] 🙂 您好呀，我是岁悦。今天感觉怎么样？
+2026-11-11 19:43:05,481 INFO suiyue.pepper.gateway: [Local TTS] 您慢慢说，我在听呢。
+2026-11-11 19:43:05,482 INFO suiyue.pepper.gateway: 表情动作忙或冷却中，跳过 happy
+2026-11-11 19:43:06,784 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 8, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 19:43:10,219 INFO suiyue.pepper.gateway: [Local TTS] 您好呀，我是岁悦。今天感觉怎么样？
+2026-11-11 19:43:11,053 INFO suiyue.pepper.gateway: listen start
+2026-11-11 19:43:15,149 INFO suiyue.pepper.gateway: [STT] 我需要去这个玉泰小
+2026-11-11 19:43:16,386 INFO suiyue.pepper.gateway: [LLM] 🤔 您说的“玉泰小”，是玉泰小区吗？还是别的什么地方呀？
+2026-11-11 19:43:40,700 INFO suiyue.pepper.gateway: [STT] 小怪都太能秒我了
+2026-11-11 19:43:41,801 INFO suiyue.pepper.gateway: [LLM] 😶 听着有点急呀。您先歇口气，慢慢说，是遇到什么事了吗？
+2026-11-11 19:43:48,032 INFO suiyue.pepper.gateway: [STT] 能不能别说话，那边谁音都录进来了
+2026-11-11 19:43:48,913 INFO suiyue.pepper.gateway: [LLM] 😌 好，我先不说话。您需要我时，喊我就行。
+2026-11-11 19:44:06,677 INFO suiyue.pepper.gateway: emotion=thinking -> 动作=thinking result={'ok': True, 'id': 24, 'result': {'animation': 'animations/Stand/Gestures/Thinking_1', 'played': True}}
+2026-11-11 19:44:10,738 INFO suiyue.pepper.gateway: [Local TTS] 您说的“玉泰小”，是玉泰小区吗？还是别的什么地方呀？
+2026-11-11 19:44:17,300 INFO suiyue.pepper.gateway: [Local TTS] 听着有点急呀。您先歇口气，慢慢说，是遇到什么事了吗？
+2026-11-11 19:44:20,022 INFO suiyue.pepper.gateway: emotion=relaxed -> 动作=calm_down result={'ok': True, 'id': 29, 'result': {'animation': 'animations/Stand/Gestures/CalmDown_1', 'played': True}}
+2026-11-11 19:44:22,755 INFO suiyue.pepper.gateway: [Local TTS] 好，我先不说话。您需要我时，喊我就行。
+2026-11-11 19:44:23,588 INFO suiyue.pepper.gateway: listen start
+2026-11-11 19:44:34,701 INFO suiyue.pepper.gateway: [STT] 再调一下调一下逻辑你俩说逻辑打调，咱们几个讨论一下，我觉得他现在是
+2026-11-11 19:44:37,725 INFO suiyue.pepper.gateway: [LLM] 😌 好，我不插嘴。您几位先商量，需要我时喊我。
+2026-11-11 19:45:10,097 INFO suiyue.pepper.gateway: [STT] 就一轮就他他现在这个逻辑是啥？就是他只要检测到你说话，他就停，然后他你会说话，直到直到他你把所有组话说完，然后他在，他再监持往下说。对，只要是不知道从你不说话到他检测到你不说话。他在开始说话，我我我我来改我现在想的逻辑就是改成，就是还是改成他说话时候不能打断，咱们说一句话，0.50.5秒没声音，他就开始那啥，他就开始去检测。这样可以吧
+2026-11-11 19:45:11,800 INFO suiyue.pepper.gateway: [LLM] 😌 您说的是自动打断的逻辑吧。改成“0.5 秒静音才接话”，应该更顺。
+2026-11-11 19:45:17,353 INFO suiyue.pepper.gateway: emotion=relaxed -> 动作=calm_down result={'ok': True, 'id': 43, 'result': {'animation': 'animations/Stand/Gestures/CalmDown_1', 'played': True}}
+2026-11-11 19:45:20,574 INFO suiyue.pepper.gateway: [Local TTS] 好，我不插嘴。您几位先商量，需要我时喊我。
+2026-11-11 19:45:20,574 INFO suiyue.pepper.gateway: 表情动作忙或冷却中，跳过 relaxed
+2026-11-11 19:45:28,168 INFO suiyue.pepper.gateway: [Local TTS] 您说的是自动打断的逻辑吧。改成“0.5 秒静音才接话”，应该更顺。
+2026-11-11 19:45:28,999 INFO suiyue.pepper.gateway: listen start
+2026-11-11 19:47:02,425 INFO suiyue.pepper.gateway: [STT] 对吧他这可能有点慢，他压缩上
+2026-11-11 19:47:03,364 INFO suiyue.pepper.gateway: [LLM] 🤔 嗯，0.5 秒可能偏慢。要不先试试 0.3 秒？您方便的话，我记下来提醒。
+2026-11-11 19:47:27,785 INFO suiyue.pepper.gateway: [STT] 就那老师问，就说可能他们就是把思活都替化了一下，如果把咱们小志给删了，你你就揣测一下这位老师
+2026-11-11 19:47:29,154 INFO suiyue.pepper.gateway: [LLM] 😶 我听着有点绕。您是说，怕把小志这块给去掉了？
+2026-11-11 19:48:44,913 INFO suiyue.pepper.gateway: emotion=thinking -> 动作=thinking result={'ok': True, 'id': 88, 'result': {'animation': 'animations/Stand/Gestures/Thinking_1', 'played': True}}
+2026-11-11 19:48:51,536 INFO suiyue.pepper.gateway: [Local TTS] 嗯，0.5 秒可能偏慢。要不先试试 0.3 秒？您方便的话，我记下来提醒。
+2026-11-11 19:48:57,319 INFO suiyue.pepper.gateway: [Local TTS] 我听着有点绕。您是说，怕把小志这块给去掉了？
+[audio] Microphone unsubscribed
+2026-11-11 19:48:57,448 INFO suiyue.pepper.gateway: 主网关已关闭
+2026-11-11 20:04:26,465 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=37836
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1794398666.867882 15100 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALTextToSpeech": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-11-11 20:04:27,507 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-11-11 20:04:27,520 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-11-11 20:04:27,529 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=7912d227-2f64-458e-b219-4064a498b87a audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+[I] 1794398667.529411 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398667.532422 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398667.532422 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:04:27,643 INFO suiyue.pepper.gateway: Microphone started; audio_only=True
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:04:27,710 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:04:56,918 INFO suiyue.pepper.gateway: [聆听] 已暂停麦克风，等待识别和回答
+2026-11-11 20:04:57,322 INFO suiyue.pepper.gateway: [STT] 你好
+2026-11-11 20:04:58,798 INFO suiyue.pepper.gateway: [LLM] 🙂 您好呀，我是岁悦，今天感觉怎么样？
+2026-11-11 20:05:03,286 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 9, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 20:05:03,606 INFO suiyue.pepper.gateway: [Local TTS] 您好呀，我是岁悦，今天感觉怎么样？
+[I] 1794398704.411005 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398704.413080 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398704.413080 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:05:04,525 INFO suiyue.pepper.gateway: [聆听] 已恢复麦克风，可以继续说话
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:05:04,572 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:05:22,196 INFO suiyue.pepper.gateway: [聆听] 已暂停麦克风，等待识别和回答
+2026-11-11 20:05:22,684 INFO suiyue.pepper.gateway: [STT] 介绍一下你自己
+2026-11-11 20:05:24,409 INFO suiyue.pepper.gateway: [LLM] 🙂 我是岁悦，陪您聊天的机器人。 能陪您说说话、讲讲健康小知识。 也能放首歌、说个故事。 您想聊点什么呀？
+2026-11-11 20:05:28,893 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 18, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 20:05:36,193 INFO suiyue.pepper.gateway: [Local TTS] 我是岁悦，陪您聊天的机器人。 能陪您说说话、讲讲健康小知识。 也能放首歌、说个故事。 您想聊点什么呀？
+[I] 1794398737.004340 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398737.006351 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398737.006351 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:05:37,114 INFO suiyue.pepper.gateway: [聆听] 已恢复麦克风，可以继续说话
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:05:37,171 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:05:38,557 INFO suiyue.pepper.gateway: [聆听] 已暂停麦克风，等待识别和回答
+2026-11-11 20:05:38,907 INFO suiyue.pepper.gateway: [STT] 个护事吧
+2026-11-11 20:05:39,974 INFO suiyue.pepper.gateway: [LLM] 🙂 您说的是讲故事吧？  您想听童话、冒险，还是轻松的？
+2026-11-11 20:05:44,464 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 25, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 20:05:46,543 INFO suiyue.pepper.gateway: [Local TTS] 您说的是讲故事吧？ 您想听童话、冒险，还是轻松的？
+[I] 1794398747.356716 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398747.358718 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398747.358718 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:05:47,478 INFO suiyue.pepper.gateway: [聆听] 已恢复麦克风，可以继续说话
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:05:47,539 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:05:48,758 INFO suiyue.pepper.gateway: [聆听] 已暂停麦克风，等待识别和回答
+2026-11-11 20:05:49,094 INFO suiyue.pepper.gateway: [STT] 笑话
+2026-11-11 20:05:50,779 INFO suiyue.pepper.gateway: [LLM] 🙂 好嘞，说个笑话：  爷爷去体检，医生说他缺钙。 爷爷说：那我该吃点啥？ 医生说：多晒太阳。 爷爷回家，搬个凳子在院里坐了一下午。 结果——他被晒成了“熟客”。  要不要再来一个？
+2026-11-11 20:05:55,187 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 31, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 20:06:09,181 INFO suiyue.pepper.gateway: [Local TTS] 好嘞，说个笑话： 爷爷去体检，医生说他缺钙。 爷爷说：那我该吃点啥？ 医生说：多晒太阳。 爷爷回家，搬个凳子在院里坐了一下午。 结果——他被晒成了“熟客”。 要不要再来一个？
+[I] 1794398769.981997 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398769.984468 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398769.984468 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:06:10,083 INFO suiyue.pepper.gateway: [聆听] 已恢复麦克风，可以继续说话
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:06:10,153 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:06:22,807 INFO suiyue.pepper.gateway: [聆听] 已暂停麦克风，等待识别和回答
+2026-11-11 20:06:23,179 INFO suiyue.pepper.gateway: [STT] 你能做什么？
+2026-11-11 20:06:24,381 INFO suiyue.pepper.gateway: [LLM] 🙂 我能陪您说话解闷。 也能讲故事、说笑话、放音乐。 还能聊健康小提醒。 您想先来哪个呀？
+2026-11-11 20:06:28,808 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 42, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 20:06:34,484 INFO suiyue.pepper.gateway: [Local TTS] 我能陪您说话解闷。 也能讲故事、说笑话、放音乐。 还能聊健康小提醒。 您想先来哪个呀？
+[I] 1794398795.288506 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398795.290519 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398795.290519 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:06:35,411 INFO suiyue.pepper.gateway: [聆听] 已恢复麦克风，可以继续说话
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:06:35,464 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:06:37,540 INFO suiyue.pepper.gateway: [聆听] 已暂停麦克风，等待识别和回答
+2026-11-11 20:06:38,008 INFO suiyue.pepper.gateway: [STT] 先这样啊，第0先复士上去
+2026-11-11 20:06:39,236 INFO suiyue.pepper.gateway: [LLM] 🙂 好嘞，那咱们先聊到这儿。  您随时喊我，我都在。
+2026-11-11 20:06:43,642 INFO suiyue.pepper.gateway: emotion=happy -> 动作=wave result={'ok': True, 'id': 49, 'result': {'animation': 'animations/Stand/Gestures/Hey_1', 'played': True}}
+2026-11-11 20:06:45,139 INFO suiyue.pepper.gateway: [Local TTS] 好嘞，那咱们先聊到这儿。 您随时喊我，我都在。
+[I] 1794398805.953182 12220 qimessaging.session: Session listener created on tcp://0.0.0.0:9562
+[I] 1794398805.955435 12220 qimessaging.transportserver: TransportServer will listen on: tcp://192.168.0.189:9562
+[I] 1794398805.955435 12220 qimessaging.transportserver: TransportServer will listen on: tcp://127.0.0.1:9562
+[audio] Microphone subscribed: 16000Hz, mono, callback TCP 9562
+2026-11-11 20:06:46,083 INFO suiyue.pepper.gateway: [聆听] 已恢复麦克风，可以继续说话
+[audio] First microphone frame: 2730 bytes, 16000Hz
+2026-11-11 20:06:46,164 INFO suiyue.pepper.gateway: listen start
+[audio] Microphone unsubscribed
+2026-11-11 20:07:00,724 INFO suiyue.pepper.gateway: 主网关已关闭

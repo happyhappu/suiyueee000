@@ -1,0 +1,5 @@
+﻿SUCCESS
+Capability=Installed
+Service=Running
+StartType=Automatic
+Listening=True

@@ -1,0 +1,14 @@
+2026-10-20 21:29:58,119 INFO suiyue.pepper.gateway: 已拉起 naoqi_bridge 子进程 pid=46452
+[bridge] 已连接 Pepper broker: tcp://192.168.0.93:9559
+[W] 1792502998.464456 7992 qi.path.sdklayout: No Application was created, trying to deduce paths
+[bridge] proxy 可用性: {"ALAnimationPlayer": true, "ALFaceDetection": true, "ALNavigation": true, "ALTracker": true, "ALRobotPosture": true, "ALMemory": true, "ALTabletService": true, "ALAudioDevice": true, "ALPeoplePerception": true, "ALBasicAwareness": true, "ALSoundLocalization": true, "ALMotion": true}
+[bridge] 本地 IPC 监听 127.0.0.1:9560（Py3 主网关连此端口）
+2026-10-20 21:29:59,152 INFO suiyue.pepper.gateway: 已连 naoqi_bridge IPC 127.0.0.1:9560
+2026-10-20 21:29:59,176 INFO suiyue.pepper.gateway: 已发送 hello 握手 -> ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway
+2026-10-20 21:29:59,183 INFO suiyue.pepper.gateway: 云端 hello 回包 session_id=48ff8393-9dec-4055-b617-97119dbbe615 audio_params={'format': 'opus', 'sample_rate': 16000, 'channels': 1, 'frame_duration': 60}
+2026-10-20 21:29:59,188 INFO suiyue.pepper.gateway: [STT] 请只说一句话：大脑和派普的语音连接测试成功
+2026-10-20 21:30:00,161 INFO suiyue.pepper.gateway: [LLM] 🙂
+2026-10-20 21:30:02,974 INFO suiyue.pepper.gateway: [TTS] 大脑和派普的语音连接测试成功
+2026-10-20 21:30:10,659 INFO suiyue.pepper.gateway: [TTS] Playback confirmed: {'frames': 181438, 'output_rate': 48000, 'duration_s': 3.78, 'played': True}
+2026-10-20 21:30:10,659 INFO suiyue.pepper.gateway: VOICE_DOWNLINK_TEST_PASS
+2026-10-20 21:30:10,666 INFO suiyue.pepper.gateway: 主网关已关闭

@@ -1,0 +1,7 @@
+{
+  "brain_ws": "ws://192.168.0.87:8000/xiaozhi/v1/?device-id=pepper-01&client-id=pepper-gateway",
+  "pepper_ip": "192.168.0.93",
+  "device_id": "pepper-01",
+  "python2": "D:\\Python27\\python.exe",
+  "sdk": "G:\\pepper\\pynaoqi-python2.7-2.5.5.5-win32-vs2013"
+}

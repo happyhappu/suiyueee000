@@ -1,0 +1,15 @@
+Pepper gateway Opus runtime provenance
+
+Repository: https://repo.msys2.org/mingw/mingw32/
+
+mingw-w64-i686-opus-1.6.1-2-any.pkg.tar.zst
+SHA256 F0BFD6F11CCFDAAA4D84119E9C6265E84595F980E49FF2FFCB457B5C165281DE
+
+mingw-w64-i686-libwinpthread-14.0.0.r426.g4564ee4b5-2-any.pkg.tar.zst
+SHA256 F8418872DA24480DE128A1647F3407AB5CD3A7B49028C92C5D84AC34EA82C684
+
+mingw-w64-i686-libgcc-16.2.0-6-any.pkg.tar.zst
+SHA256 7B89855E761F98B16608160771976F12E4075B28224FF9405FCF09ED37DDEC44
+
+libopus-0.dll is also present as opus.dll because Python opuslib searches for
+that basename on Windows.
